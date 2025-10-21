@@ -824,6 +824,8 @@ function library:init()
             end
         end
     end)
+
+
     
     function self:SetOpen(bool)
         self.open = bool;
@@ -4838,6 +4840,7 @@ REMOVE CUSTOM THEME SECTION END]]
 
     return settingsTab;
 end
-
+library:SetTheme(library.themes[1].theme)
 getgenv().library = library
+
 return library
