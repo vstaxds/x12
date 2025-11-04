@@ -187,7 +187,7 @@ function library:new(props)
 		"Frame",
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
-			BackgroundColor3 = Color3.fromRGB(20, 20, 20),
+			BackgroundColor3 = Color3.fromRGB(20, 120, 20),
 			BorderColor3 = Color3.fromRGB(56, 56, 56),
 			BorderMode = "Inset",
 			BorderSizePixel = 1,
@@ -496,7 +496,7 @@ function library:watermark()
 		"Frame",
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
-			BackgroundColor3 = Color3.fromRGB(20, 20, 20),
+			BackgroundColor3 = Color3.fromRGB(120, 20, 20),
 			BorderColor3 = Color3.fromRGB(56, 56, 56),
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,1,0),
@@ -640,7 +640,7 @@ function library:loader(props)
 		"Frame",
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
-			BackgroundColor3 = Color3.fromRGB(20, 20, 20),
+			BackgroundColor3 = Color3.fromRGB(20, 20, 120),
 			BorderColor3 = Color3.fromRGB(56, 56, 56),
 			BorderSizePixel = 1,
 			Size = UDim2.new(1,0,1,0),
