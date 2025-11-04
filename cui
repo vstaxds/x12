@@ -342,7 +342,7 @@ function library:new(props)
 		{
 			BackgroundColor3 = Color3.fromRGB(0, 0, 0),
 			BackgroundTransparency = 1,
-			Image = (getgenv().image or "rbxassetid://112825740122859"),
+			Image = (getgenv().image or "rbxassetid://106797409902358"),
 			Size = UDim2.new(1,0,1,0),
 			Position = UDim2.new(0,0,0,0),
 			Parent = tabs
